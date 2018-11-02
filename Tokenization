@@ -1,0 +1,4 @@
+import nltk
+text = "This is Andrew's text, isn't it?"
+tokenizer = nltk.tokenize.WhitespaceTokenizer()
+tokenizer.tokenize(text)
